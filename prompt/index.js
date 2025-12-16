@@ -4,3 +4,12 @@ btn.addEventListener("click", () => {
     const userName = prompt("Enter your name", "guest");
     output.textContent = `Hello ${userName}!!`;
 });
+
+
+const colorBtn = document.getElementById("color-btn");
+
+colorBtn.addEventListener("click", () => {
+    document.body.style.backgroundColor = `#${vari}`;
+});
+
+
