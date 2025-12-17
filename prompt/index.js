@@ -9,7 +9,8 @@ btn.addEventListener("click", () => {
 const colorBtn = document.getElementById("color-btn");
 
 colorBtn.addEventListener("click", () => {
-    document.body.style.backgroundColor = `#${vari}`;
+    document.body.style.backgroundColor = `#00664d`;
+    output.textContent = "Helloooo Worlllldddddd.....!!!!!!!";
 });
 
 
