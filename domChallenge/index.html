@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom manupilations</title>
+    <style>
+        .buttons {
+            background: #4085ed;
+            color: aliceblue;
+            border: 2px solid #4085ed;
+            padding: 1rem 3rem;
+            border-radius: 2rem;
+            margin: 0 2rem;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+
+        }
+
+        .buttons:hover {
+            cursor: pointer;
+            border: 2px solid #4085ed;
+            background: #fff;
+            color: #4085ed;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+        }
+    </style>
 </head>
+
 <body>
     <div>
         <h1>hey guys lets select and edit this like</h1>
     </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam asperiores minima illum corporis expedita est sint repellendus ex eum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam asperiores minima illum corporis expedita
+        est sint repellendus ex eum?</p>
 
     <ul>
     </ul>
     <button id="btn-create">Create</button>
+    <button id="btn-rm">Remove</button>
     <button id="btn-reset">Reset</button>
     <script src="index.js"></script>
 </body>
+
 </html>
