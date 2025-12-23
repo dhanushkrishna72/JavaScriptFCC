@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom manupilations</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .buttons {
             background: #4085ed;
@@ -12,7 +13,8 @@
             border: 2px solid #4085ed;
             padding: 1rem 3rem;
             border-radius: 2rem;
-            margin: 0 2rem;
+            margin: 1rem 0;
+            width: 12rem;
             text-align: center;
             align-items: center;
             justify-content: center;
@@ -29,22 +31,33 @@
             color: #4085ed;
             transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
         }
+
+        .div {
+            background: #f3c361;
+            border: 5px solid black;
+            border-radius: 2rem;
+            min-height: 250px;
+            width: 500px;
+            color: deeppink;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 
 <body>
+
     <div>
-        <h1>hey guys lets select and edit this like</h1>
+        <ul>
+        </ul>
     </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam asperiores minima illum corporis expedita
-        est sint repellendus ex eum?</p>
-
-    <ul>
-    </ul>
     <button id="btn-create">Create</button>
     <button id="btn-rm">Remove</button>
     <button id="btn-reset">Reset</button>
+
+
     <script src="index.js"></script>
 </body>
 
