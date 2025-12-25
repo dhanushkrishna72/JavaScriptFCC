@@ -73,3 +73,11 @@ button {
 button:hover {
   background: #357abd;
 }
+
+#resultMessage{
+    color: #e74c3c;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
