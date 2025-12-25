@@ -29,12 +29,40 @@
 //     }
 // });
 
-let h1 = document.querySelector("h1");
+// let h1 = document.querySelector("h1");
 
-window.addEventListener("keydown", (ele) => {
-    if (ele.key === " ") {
-        h1.textContent = "SPACE";
-    } else {
-        h1.textContent = ele.key;
-    }
-})
+// window.addEventListener("keydown", (ele) => {
+//     if (ele.key === " ") {
+//         h1.textContent = "SPACE";
+//     } else {
+//         h1.textContent = ele.key;
+//     }
+// })
+
+// let btn = document.querySelector("#btn");
+// let file = document.querySelector("#fileInp");
+
+// btn.addEventListener("click", () => {
+//     file.click();
+// });
+
+
+// file.addEventListener("change", (ele) => {
+
+//     (ele.target.files[0]) ? (btn.textContent = ele.target.files[0].name) : (btn.textContent = "No files selected");
+// });
+
+let abcd = document.querySelector("#abcd");
+
+// abcd.addEventListener("mouseover", function () {
+//     abcd.style.backgroundColor = "antiquewhite";
+// });
+
+// abcd.addEventListener("mouseout", function () {
+//     abcd.style.backgroundColor = "rgb(74, 74, 112)";
+// });
+
+window.addEventListener("mousemove", (ele) => {
+    abcd.style.top = ele.clientY + "px";
+    abcd.style.left = ele.clientX + "px";
+});

@@ -17,31 +17,117 @@
         body {
             width: 100%;
             height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #abcd {
+            position: absolute;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+            width: 400px;
+            height: 400px;
+            background: rgb(74, 74, 112);
+            top: 50%;
+            left: 50%;
+        }
+
+        /* input {
+            display: block;
+            margin: 20px 0;
+            padding: 12px 22px;
+            font-size: 22px;
+            font-weight: 600;
+            color: rgb(74, 74, 112);
+            border-radius: 12px;
+            border: none;
         }
 
         #main {
+            padding: 2rem 3rem;
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
             height: 100%;
             background: rgb(74, 74, 112);
+            color: aliceblue;
         }
 
-        h1 {
-            color: aliceblue;
-            font-size: 13rem;
-            font-weight: 300;
-            user-select: none;
+        #btn {
+            background: antiquewhite;
+            padding: 12px 22px;
+            border-radius: 30px;
+            border: 2px solid antiquewhite;
+            font-weight: 600;
+            color: rgb(74, 74, 112);
         }
+
+        #btn:hover {
+            border: 2px solid antiquewhite;
+            background: rgb(74, 74, 112);
+            color: antiquewhite;
+        }
+
+        form {
+            padding: 2rem;
+            border-radius: 2rem;
+            background-color: rgb(70, 104, 167);
+        }
+
+        .card {
+            max-width: 300px;
+            display: inline-block;
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid rgb(70, 104, 167);
+            border-radius: 12px;
+        }
+
+        .profile {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: antiquewhite;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .profile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card h5 {
+            margin-top: 5px;
+        }
+
+        .card p {
+            font-size: 12px;
+            margin-top: 10px
+        } */
     </style>
 </head>
 
 <body>
-    <div id="main">
-        <h1>a</h1>
+    <!-- <input id="fileInp" type="file">
+    <div id="btn">Upload File</div> -->
+    <!-- <div id="main">
+        <form action="">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="age">
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="profilePic">
+            <input type="submit">
+        </form>
+    </div> -->
+
+    <div id="abcd">
+
     </div>
+
     <script src="index.js"></script>
+    <!-- <script src="form.js"></script> -->
 </body>
 
 </html>
